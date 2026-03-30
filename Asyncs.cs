@@ -8,7 +8,7 @@ namespace ParralelProg
 {
     public class Asyncs
     {
-            
+         // асинхронный метод сортировки 
          public async Task<int[]> InsertSortAsync(int[]mas,SortMethod sm )
          {
             return await Task.Run(() =>  sm.InsertsSort(mas));
